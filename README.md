@@ -4,7 +4,7 @@ clone程式後，請先執行，以安裝需求套件
 pip install -r requirements.txt
 ```
 ## 試題1
-
+未完成，只完成使用selenium取得頁面上的驗證碼截圖，並使用ddddocr套件完成驗證碼辨識，程式碼部分參考"試題1/doorplate.py"
 ## 試題2
 合併題目三執行(轉換完直接寫入DB)，首先啟動好mongodb
 ```
