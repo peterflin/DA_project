@@ -30,7 +30,7 @@ if __name__ == '__main__':
             tags['detail'] = [{"detail_name": row[1]['detail_name'], "detail_value": row[1]['detail_value']}]
             member_row['tags'].append(tags)
         member_data.append(member_row)
-    db_client = pymongo.MongoClient("mongodb://localhost:27017/")  # port
+    db_client = pymongo.MongoClient("mongodb://localhost:27017/")
     db = db_client['guotai']
     col = db['guotai']
     result = col.insert_many(member_data)
