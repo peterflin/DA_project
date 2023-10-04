@@ -17,4 +17,4 @@ cd "試題2"
 python transform.py
 ```
 ## 試題3
-![](question3.png)
+請見question3.png檔案
